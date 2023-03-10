@@ -1,0 +1,254 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.votingForm{
+    width: 25%;
+    margin: 0 auto;
+    padding: 20px 30px;
+    height: auto;
+    background: #537FE7;
+    border-radius: 5px;
+}
+
+.votingForm img{
+    width: 100px;
+    height: 100px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+}
+
+.votingForm .formTitle{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Arial, Helvetica;
+    color: #fff;
+}
+
+.votingForm .input-group-text{
+    background: #38E54D;
+    border: none;
+    color: #fff;
+}
+
+.votingForm .signupBtn{
+    padding: 10px 50px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background: #38E54D;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica;
+}
+
+.votingForm .loginBtn{
+    padding: 10px 50px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background: #38E54D;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica;
+}
+
+.votingForm a{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.votingForm a:hover{
+    color: #00fd1e;
+}
+
+.header_wrapper{
+    background: #537FE7;
+    padding: 25px 10px;
+}
+
+.header_wrapper img{
+    width: 70px;
+    height: 70px;
+    border: 4px solid #fff;
+    border-radius: 50%;
+}
+
+.header_wrapper a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica;
+}
+
+.header_wrapper a:hover{
+    color: #fff;
+}
+
+.navbar{
+    background: #EEEEEE;
+}
+
+.navbar .nav-item{
+    margin: 0 10px;
+}
+
+.navbar .nav-item .nav-link{
+    color: #537FE7;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica;
+}
+
+.navbar .welcome-text{
+    font-weight: bold;
+    font-family: Arial, Helvetica;
+    color: #537FE7;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.navbar .btn.btn-danger{
+    font-weight: bold;
+}
+
+.navbar .btn.btn-danger:focus{
+    box-shadow: none;
+}
+
+.home_wrapper{
+    padding: 30px 0 150px;
+}
+
+.home_wrapper .title{
+    color: #537FE7;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Arial, Helvetica;
+}
+
+.home_wrapper .btn.btn-sm.btn-success:focus{
+    box-shadow: none;
+}
+
+.election_wrapper{
+  padding: 30px 0 30px;
+}
+
+.election_wrapper .title{
+    color: #537FE7;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Arial, Helvetica;
+}
+
+.election_wrapper label{
+    color: #537FE7;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica;
+}
+
+.election_wrapper .addBtn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background: #38E54D;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica;
+}
+
+.election_wrapper .btn.btn-sm.btn-warning:focus{
+    box-shadow: none;
+}
+
+.election_wrapper .btn.btn-sm.btn-danger:focus{
+    box-shadow: none;
+}
+
+.candidate_wrapper{
+    padding: 30px 0 30px;
+}
+
+.candidate_wrapper .title{
+    color: #537FE7;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Arial, Helvetica;
+}
+
+.candidate_wrapper label{
+    color: #537FE7;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica;
+}
+
+.candidate_wrapper .addBtn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background: #38E54D;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica;
+}
+
+.candidate_wrapper table td img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.candidate_wrapper .btn.btn-sm.btn-warning:focus{
+    box-shadow: none;
+}
+
+.candidate_wrapper .btn.btn-sm.btn-danger:focus{
+    box-shadow: none;
+}
+
+.voter_wrapper{
+    padding: 30px 0 30px;
+}
+
+.voter_wrapper table td img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+
+.voter_wrapper .btn.btn-md.btn-success:focus{
+    box-shadow: none;
+}
+
+.footer_wrapper{
+    background: #191825;
+    padding: 15px 10px;
+}
+.footer_wrapper p{
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Arial, Helvetica;
+}
+
+.footer_wrapper p.developer{
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Arial, Helvetica;
+}
