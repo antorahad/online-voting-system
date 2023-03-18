@@ -48,7 +48,7 @@
                             } else {
                                 ?>
                                 <tr>
-                                    <td colspan="7" class="text-center text-info">No any election is added yet.</td>
+                                    <td colspan="9" class="text-center text-info">No any election is added yet.</td>
                                 </tr>
                             <?php
 
